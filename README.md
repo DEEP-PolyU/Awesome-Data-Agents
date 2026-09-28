@@ -11,7 +11,7 @@ Research papers, benchmarks, and projects on **Data Agents**, collected from our
 
 <div align="center">
      <img width="100%" src="figures/data_agent_workflow.png" alt="Data Agent workflow illustrated through regional sales analysis">
-     <p><em>The workflow harness of AI Data Scientists: perception, planning, execution, verification, and repair maintain the evolving data state, localize failures, and retain validated corrections across data tasks. The regional sales example illustrates how a join-key error is detected and repaired.</em></p>
+     <p><em>The workflow harness of AI Data Scientists: perception, planning, execution, verification, and repair.</em></p>
 </div>
 
 ## 📜 Catalog
@@ -54,7 +54,7 @@ A Data Agent is an LLM-driven system that executes end-to-end data science tasks
 
 <div align="center">
      <img width="100%" src="figures/fig2_perception.png" alt="Perception through data structure probing, cross-source evidence linking, and risk-calibrated state scoring">
-     <p><em>Perception builds a risk-calibrated data state through data structure probing, cross-source evidence linking, and risk-calibrated state scoring. The figure shows these operations across structured, semi-structured, and unstructured data.</em></p>
+     <p><em>Technical routes for perception across heterogeneous data environments: Data Structure Probing, Cross-Source Data Alignment, and Confidence-Calibrated State Scoring.</em></p>
 </div>
 
 #### Structured Data
@@ -68,10 +68,8 @@ A Data Agent is an LLM-driven system that executes end-to-end data science tasks
 - (SIGMOD Companion'26) **Cortex AISQL: A Production SQL Engine for Unstructured Data** [[Paper]](https://arxiv.org/abs/2511.07663)
 - (arXiv'26) **SEMA-SQL: Beyond Traditional Relational Querying with Large Language Models** [[Paper]](https://arxiv.org/abs/2604.23477)
 - (arXiv'26) **Blue Data Intelligence Layer: Streaming Data and Agents for Multi-source Multi-modal Data-Centric Applications** [[Paper]](https://arxiv.org/abs/2604.15233)
-- (arXiv'26) **PExA: Parallel Exploration Agent for Complex Text-to-SQL** [[Paper]](https://arxiv.org/abs/2604.22934)
-- (arXiv'26) **Learning to Retrieve: Dual-Level Long-Term Memory for Text-to-SQL Agents** [[Paper]](https://arxiv.org/abs/2606.00547)
 - (EDBT'25) **Entity Matching using Large Language Models** [[Paper]](https://arxiv.org/abs/2310.11244)
-- (arXiv'26) **Cast-R1: Learning Tool-Augmented Sequential Decision Policies for Time Series Forecasting** [[Paper]](https://arxiv.org/abs/2602.13802)
+- (VLDB'24) **Agent-OM: Leveraging LLM Agents for Ontology Matching** [[Paper]](https://arxiv.org/abs/2312.00326)
 - (Findings of EMNLP'24) **R³-NL2GQL: A Model Coordination and Knowledge Graph Alignment Approach for NL2GQL** [[Paper]](https://aclanthology.org/2024.findings-emnlp.800/)
 
 #### Semi-Structured Data
@@ -81,14 +79,13 @@ A Data Agent is an LLM-driven system that executes end-to-end data science tasks
 - (HILDA'24) **Cocoon: Semantic Table Profiling Using Large Language Models** [[Paper]](https://arxiv.org/abs/2404.12552)
 - (arXiv'25) **RubikSQL: Lifelong Learning Agentic Knowledge Base as an Industrial NL2SQL System** [[Paper]](https://arxiv.org/abs/2508.17590)
 - (arXiv'25) **AgenticData: An Agentic Data Analytics System for Heterogeneous Data** [[Paper]](https://arxiv.org/abs/2508.05002)
+- (arXiv'26) **TwinBI: An Agentic Digital Twin for Efficient Augmented Interactions with Business Intelligence Dashboards** [[Paper]](https://arxiv.org/abs/2606.13731)
 - (arXiv'25) **An LLM Agent-Based Complex Semantic Table Annotation Approach** [[Paper]](https://arxiv.org/abs/2508.12868)
 - (arXiv'26) **TABQAWORLD: Optimizing Multimodal Reasoning for Multi-Turn Table Question Answering** [[Paper]](https://arxiv.org/abs/2604.03393)
 - (arXiv'26) **SemPiper: Interactive Code Synthesis for Semantic Operators in Machine Learning Pipelines** [[Paper]](https://arxiv.org/abs/2606.14361)
 - (arXiv'26) **DataSTORM: Deep Research on Large-Scale Databases using Exploratory Data Analysis and Data Storytelling** [[Paper]](https://arxiv.org/abs/2604.06474)
-- (arXiv'25) **TAGAL: Tabular Data Generation using Agentic LLM Methods** [[Paper]](https://arxiv.org/abs/2509.04152)
 - (arXiv'26) **Beyond Linear LLM Invocation: An Efficient and Effective Semantic Filter Paradigm** [[Paper]](https://arxiv.org/abs/2603.04799)
-- (ADBIS'24) **LLMClean: Context-Aware Tabular Data Cleaning via LLM-Generated OFDs** [[Paper]](https://arxiv.org/abs/2404.18681)
-- (arXiv'26) **TwinBI: An Agentic Digital Twin for Efficient Augmented Interactions with Business Intelligence Dashboards** [[Paper]](https://arxiv.org/abs/2606.13731)
+- (arXiv'25) **CoDA: Agentic Systems for Collaborative Data Visualization** [[Paper]](https://arxiv.org/abs/2510.03194)
 
 #### Unstructured Data
 
@@ -96,17 +93,16 @@ A Data Agent is an LLM-driven system that executes end-to-end data science tasks
 - (arXiv'26) **MAVEN: A Multi-stage Agentic Annotation Pipeline for Video Reasoning Tasks** [[Paper]](https://arxiv.org/abs/2605.21917)
 - (arXiv'25) **HARMON-E: Hierarchical Agentic Reasoning for Multimodal Oncology Notes to Extract Structured Data** [[Paper]](https://arxiv.org/abs/2512.19864)
 - (arXiv'26) **Navigating the Mirage: A Dual-Path Agentic Framework for Robust Misleading Chart Question Answering** [[Paper]](https://arxiv.org/abs/2603.28583)
+- (arXiv'26, withdrawn) **Agentic Retrieval-Augmented Generation for Financial Document Question Answering** [[Paper]](https://arxiv.org/abs/2605.05409)
 - (arXiv'25) **Code-in-the-Loop Forensics: Agentic Tool Use for Image Forgery Detection** [[Paper]](https://arxiv.org/abs/2512.16300)
+- (arXiv'26) **LongDS-Bench: On the Failure of Long-Horizon Agentic Data Analysis** [[Paper]](https://arxiv.org/abs/2605.30434)
 - (arXiv'25) **Doc-Researcher: A Unified System for Multimodal Document Parsing and Deep Research** [[Paper]](https://arxiv.org/abs/2510.21603)
-- (PACMMOD'26) **AgenticScholar: Agentic Data Management with Pipeline Orchestration for Scholarly Corpora** [[Paper]](https://arxiv.org/abs/2603.13774)
-- (arXiv'26) **LongDA: Benchmarking LLM Agents for Long-Document Data Analysis** [[Paper]](https://arxiv.org/abs/2601.02598)
-- (EMNLP'24) **PDFTriage: Question Answering over Long, Structured Documents** [[Paper]](https://aclanthology.org/2024.emnlp-industry.13/)
 
 ### Planning
 
 <div align="center">
      <img width="100%" src="figures/fig3_planning.png" alt="Planning through tree search, heuristic search, and strategy routing">
-     <p><em>Planning turns the perceived data state into an executable plan through tree search, heuristic search, or strategy routing. The figure illustrates value backpropagation, candidate scoring and refinement, and selection from predefined strategies.</em></p>
+     <p><em>Technical routes for planning: Tree Search, Heuristic Search, and Strategy Routing.</em></p>
 </div>
 
 #### Structured Data
@@ -117,21 +113,21 @@ A Data Agent is an LLM-driven system that executes end-to-end data science tasks
 - (PACMMOD'25) **OpenSearch-SQL: Enhancing Text-to-SQL with Dynamic Few-shot and Consistency Alignment** [[Paper]](https://arxiv.org/abs/2502.14913)
 - (COLM'25) **EllieSQL: Cost-Efficient Text-to-SQL with Complexity-Aware Routing** [[Paper]](https://arxiv.org/abs/2503.22402)
 - (VLDB'25) **SiriusBI: A Comprehensive LLM-Powered Solution for Data Analytics in Business Intelligence** [[Paper]](https://www.vldb.org/pvldb/vol18/p4860-xie.pdf)
-- (Findings of EMNLP'24) **R³-NL2GQL: A Model Coordination and Knowledge Graph Alignment Approach for NL2GQL** [[Paper]](https://aclanthology.org/2024.findings-emnlp.800/)
+- (arXiv'26) **PExA: Parallel Exploration Agent for Complex Text-to-SQL** [[Paper]](https://arxiv.org/abs/2604.22934)
+- (SIGIR'25) **Insight Agents: An LLM-Based Multi-Agent System for Data Insights** [[Paper]](https://arxiv.org/abs/2601.20048)
 
 #### Semi-Structured Data
 
 - (AAAI'26) **Jupiter: Enhancing LLM Data Analysis Capabilities via Notebook and Inference-Time Value-Guided Search** [[Paper]](https://arxiv.org/abs/2509.09245)
 - (arXiv'26) **SemPipes – Optimizable Semantic Data Operators for Tabular Machine Learning Pipelines** [[Paper]](https://arxiv.org/abs/2602.05134)
 - (arXiv'25) **ArchPilot: A Proxy-Guided Multi-Agent Approach for Machine Learning Engineering** [[Paper]](https://arxiv.org/abs/2511.03985)
-- (arXiv'26) **M²-Miner: Multi-Agent Enhanced MCTS for Mobile GUI Agent Data Mining** [[Paper]](https://arxiv.org/abs/2602.05429)
+- (ACL'26) **Mixture-of-Minds: Multi-Agent Reinforcement Learning for Table Understanding** [[Paper]](https://arxiv.org/abs/2510.20176)
 - (ICLR'26) **TaTToo: Tool-Grounded Thinking PRM for Test-Time Scaling in Tabular Reasoning** [[Paper]](https://arxiv.org/abs/2510.06217)
 - (KDD'26) **Rewarding the Scientific Process: Process-Level Reward Modeling for Agentic Data Analysis** [[Paper]](https://arxiv.org/abs/2604.24198)
 - (AAAI'25) **Evolutionary Large Language Model for Automated Feature Transformation** [[Paper]](https://arxiv.org/abs/2405.16203)
 - (VLDB'24) **RetClean: Retrieval-Based Data Cleaning Using LLMs and Data Lakes** [[Paper]](https://www.vldb.org/pvldb/vol17/p4421-eltabakh.pdf)
 - (arXiv'25) **Dataforge: Agentic Platform for Autonomous Data Engineering** [[Paper]](https://arxiv.org/abs/2511.06185)
 - (VLDB'24) **Chat2Data: An Interactive Data Analysis System with RAG, Vector Databases and LLMs** [[Paper]](https://www.vldb.org/pvldb/vol17/p4481-li.pdf)
-- (EMNLP'24) **DataNarrative: Automated Data-Driven Storytelling with Visualizations and Texts** [[Paper]](https://aclanthology.org/2024.emnlp-main.1073/)
 
 #### Unstructured Data
 
@@ -139,52 +135,51 @@ A Data Agent is an LLM-driven system that executes end-to-end data science tasks
 - (VLDB'25) **DocETL: Agentic Query Rewriting and Evaluation for Complex Document Processing** [[Paper]](https://arxiv.org/abs/2410.12189)
 - (NeurIPS'24) **UQE: A Query Engine for Unstructured Databases** [[Paper]](https://arxiv.org/abs/2407.09522)
 - (CAIS'26) **Do Agents Need to Plan Step-by-Step? Rethinking Planning Horizon in Data-Centric Tool Calling** [[Paper]](https://arxiv.org/abs/2605.08477)
+- (arXiv'26, withdrawn) **Agentic Retrieval-Augmented Generation for Financial Document Question Answering** [[Paper]](https://arxiv.org/abs/2605.05409)
 - (arXiv'26) **DeepXiv-SDK: An Agentic Data Interface for Scientific Literature** [[Paper]](https://arxiv.org/abs/2603.00084)
 - (arXiv'25) **Doc-Researcher: A Unified System for Multimodal Document Parsing and Deep Research** [[Paper]](https://arxiv.org/abs/2510.21603)
 - (PACMMOD'26) **AgenticScholar: Agentic Data Management with Pipeline Orchestration for Scholarly Corpora** [[Paper]](https://arxiv.org/abs/2603.13774)
-- (arXiv'26) **OmniRAG-Agent: Agentic Omni-modal Reasoning for Low-Resource Long Audio-Video Question Answering** [[Paper]](https://arxiv.org/abs/2602.03707)
 
 ### Execution
 
 <div align="center">
      <img width="100%" src="figures/fig4_execution.png" alt="Execution through tool capability boundaries, compositional tool reasoning, and feedback-adaptive tool calling">
-     <p><em>Execution turns a plan into tool calls over heterogeneous data. The figure organizes the methods around tool capability boundaries, compositional tool reasoning, and feedback-adaptive tool calling.</em></p>
+     <p><em>Technical routes for execution: Tool Capability Boundary Learning, Compositional Tool Reasoning, and Feedback-Adaptive Tool Calling.</em></p>
 </div>
 
-#### Structured Data
+#### Tool-Requirement Signals
 
-- (ICML'26) **NaviAgent: Graph-Driven Bilevel Planning for Scalable Tool Orchestration** [[Paper]](https://arxiv.org/abs/2506.19500)
+- (arXiv'26) **AllocBench: Measuring Online Tool Allocation Capability in LLM Agents** [[Paper]](https://arxiv.org/abs/2607.23332)
+- (arXiv'25) **Beyond Seeing: Evaluating Multimodal LLMs on Tool-Enabled Image Perception, Transformation, and Reasoning** [[Paper]](https://arxiv.org/abs/2510.12712)
 - (arXiv'26) **TimeART: Towards Agentic Time Series Reasoning via Tool-Augmentation** [[Paper]](https://arxiv.org/abs/2601.13653)
+- (arXiv'26) **Cast-R1: Learning Tool-Augmented Sequential Decision Policies for Time Series Forecasting** [[Paper]](https://arxiv.org/abs/2602.13802)
 - (arXiv'26) **TimeClaw: A Time-Series AI Agent with Exploratory Execution Learning** [[Paper]](https://arxiv.org/abs/2605.10038)
 
-#### Semi-Structured Data
+#### Tool-Specification Signals
 
 - (NAACL'25) **EASYTOOL: Enhancing LLM-based Agents with Concise Tool Instruction** [[Paper]](https://aclanthology.org/2025.naacl-long.44/)
+- (ICML'26) **NaviAgent: Graph-Driven Bilevel Planning for Scalable Tool Orchestration** [[Paper]](https://arxiv.org/abs/2506.19500)
 - (ACL'26) **OctoTools: A Multi-Agent Framework with Extensible Tools for Complex Reasoning** [[Paper]](https://aclanthology.org/2026.acl-long.1/)
-- (Findings of ACL'26) **Failure Makes the Agent Stronger: Enhancing Accuracy through Structured Reflection for Reliable Tool Interactions** [[Paper]](https://arxiv.org/abs/2509.18847)
-- (arXiv'25) **ToolCritic: Detecting and Correcting Tool-Use Errors in Dialogue Systems** [[Paper]](https://arxiv.org/abs/2510.17052)
 - (ICLR'25) **Learning Evolving Tools for Large Language Models** [[Paper]](https://arxiv.org/abs/2410.06617)
-- (Findings of ACL'24) **MatPlotAgent: Method and Evaluation for LLM-Based Agentic Scientific Data Visualization** [[Paper]](https://aclanthology.org/2024.findings-acl.701/)
+- (arXiv'26) **DeepEye: A Steerable Self-driving Data Agent System** [[Paper]](https://arxiv.org/abs/2603.28889)
+- (arXiv'26) **Beyond Text-to-SQL: An Agentic LLM System for Governed Enterprise Analytics APIs** [[Paper]](https://arxiv.org/abs/2605.21027)
 
-#### Unstructured Data
+#### Tool-Feedback Signals
 
 - (arXiv'25) **ToolFuzz: Automated Agent Tool Testing** [[Paper]](https://arxiv.org/abs/2503.04479)
 - (arXiv'26) **ToolOmni: Enabling Open-World Tool Use via Agentic Learning with Proactive Retrieval and Grounded Execution** [[Paper]](https://arxiv.org/abs/2604.13787)
 - (arXiv'26) **Can Agents Generalize to the Open World? Unveiling the Fragility of Static Training in Tool Use** [[Paper]](https://arxiv.org/abs/2607.01084)
+- (Findings of ACL'26) **Failure Makes the Agent Stronger: Enhancing Accuracy through Structured Reflection for Reliable Tool Interactions** [[Paper]](https://arxiv.org/abs/2509.18847)
+- (arXiv'25) **ToolCritic: Detecting and Correcting Tool-Use Errors in Dialogue Systems** [[Paper]](https://arxiv.org/abs/2510.17052)
 - (arXiv'26) **Towards On-Policy Data Evolution for Visual-Native Multimodal Deep Search Agents** [[Paper]](https://arxiv.org/abs/2605.10832)
 - (ICASSP'26) **ReTools: Reflection-Enhanced Tool Invocation for Domain-Specific QA** [[Paper]](https://doi.org/10.1109/icassp55912.2026.11463575)
-- (arXiv'26) **AudioRouter: Data Efficient Audio Understanding via RL based Dual Reasoning** [[Paper]](https://arxiv.org/abs/2602.10439)
-- (PACMMOD'26) **AgenticScholar: Agentic Data Management with Pipeline Orchestration for Scholarly Corpora** [[Paper]](https://arxiv.org/abs/2603.13774)
-- (arXiv'26) **LongDA: Benchmarking LLM Agents for Long-Document Data Analysis** [[Paper]](https://arxiv.org/abs/2601.02598)
-- (arXiv'26) **ReTool-Video: Recursive Tool-Using Video Agents with Meta-Augmented Tool Grounding** [[Paper]](https://arxiv.org/abs/2605.13228)
-- (arXiv'26) **OmniRAG-Agent: Agentic Omni-modal Reasoning for Low-Resource Long Audio-Video Question Answering** [[Paper]](https://arxiv.org/abs/2602.03707)
-- (arXiv'25) **DeepSport: A Multimodal Large Language Model for Comprehensive Sports Video Reasoning via Agentic Reinforcement Learning** [[Paper]](https://arxiv.org/abs/2511.12908)
+- (arXiv'26) **SQL-Trail: Multi-Turn Reinforcement Learning with Interleaved Feedback for Text-to-SQL** [[Paper]](https://arxiv.org/abs/2601.17699)
 
 ### Verification
 
 <div align="center">
      <img width="100%" src="figures/fig5_process.png" alt="Process-level verification across the Data Agent execution trajectory">
-     <p><em>Process-level verification inspects intermediate states, actions, and artifacts throughout the execution trajectory. The figure presents learned process scorers, multi-agent deliberative review, trace auditing with recovery, and process-oriented benchmarks, together with the feedback they provide for repair.</em></p>
+     <p><em>Technical routes for verification: Process Score Estimation, Rule-based Constraint Checking, and Trace-Level Explainable Attribution.</em></p>
 </div>
 
 #### Structured Data
@@ -193,74 +188,71 @@ A Data Agent is an LLM-driven system that executes end-to-end data science tasks
 - (PACMMOD'26) **Reward-SQL: Boosting Text-to-SQL via Stepwise Execution-Aware Reasoning and Process-Supervised Rewards** [[Paper]](https://arxiv.org/abs/2505.04671)
 - (ICLR'25) **CHASE-SQL: Multi-Path Reasoning and Preference Optimized Candidate Selection in Text-to-SQL** [[Paper]](https://arxiv.org/abs/2410.01943)
 - (PACMMOD'25) **OpenSearch-SQL: Enhancing Text-to-SQL with Dynamic Few-shot and Consistency Alignment** [[Paper]](https://arxiv.org/abs/2502.14913)
-- (PACMMOD'25) **λ-Tune: Harnessing Large Language Models for Automated Database System Tuning** [[Paper]](https://arxiv.org/abs/2411.03500)
 - (VLDB'25) **E2ETune: End-to-End Knob Tuning via Fine-Tuned Generative Language Model** [[Paper]](https://www.vldb.org/pvldb/vol18/p5540-huang.pdf)
+- (arXiv'26) **Towards Reliable Agentic Progressive Text-to-Visualization with Verification Rules** [[Paper]](https://arxiv.org/abs/2605.29692)
+- (PACMMOD'25) **λ-Tune: Harnessing Large Language Models for Automated Database System Tuning** [[Paper]](https://arxiv.org/abs/2411.03500)
 - (arXiv'26) **CausalFlow: Causal Attribution and Counterfactual Repair for LLM Agent Failures** [[Paper]](https://arxiv.org/abs/2605.25338)
-- (PNAS'26) **Many AI Analysts, One Dataset: Navigating the Agentic Data Science Multiverse** [[Paper]](https://arxiv.org/abs/2602.18710)
+- (arXiv'26) **REFLECT: Intervention-Supported Error Attribution for Silent Failures in LLM Agent Traces** [[Paper]](https://arxiv.org/abs/2606.09071)
+- (arXiv'26) **PExA: Parallel Exploration Agent for Complex Text-to-SQL** [[Paper]](https://arxiv.org/abs/2604.22934)
 
 #### Semi-Structured Data
 
-- (VLDB'24) **D-Bot: Database Diagnosis System using Large Language Models** [[Paper]](https://arxiv.org/abs/2312.01454)
 - (ACL'25) **Table-Critic: A Multi-Agent Framework for Collaborative Criticism and Refinement in Table Reasoning** [[Paper]](https://aclanthology.org/2025.acl-long.853/)
-- (Findings of ACL'25) **STeCa: Step-level Trajectory Calibration for LLM Agent Learning** [[Paper]](https://arxiv.org/abs/2502.14276)
+- (arXiv'26) **TabTracer: Monte Carlo Tree Search for Complex Table Reasoning with Large Language Models** [[Paper]](https://arxiv.org/abs/2602.14089)
 - (arXiv'26) **TabClaw: An Interactive and Self-Evolving Agent for Spreadsheet Manipulation and Table Reasoning** [[Paper]](https://arxiv.org/abs/2606.10316)
-- (arXiv'26) **DataClaw: An Autonomous Data Agent with Instant Messaging Integration** [[Paper]](https://arxiv.org/abs/2604.24067)
-- (VLDB'24) **RetClean: Retrieval-Based Data Cleaning Using LLMs and Data Lakes** [[Paper]](https://www.vldb.org/pvldb/vol17/p4421-eltabakh.pdf)
-- (PACMMOD'25) **ST-Raptor: LLM-Powered Semi-Structured Table Question Answering** [[Paper]](https://arxiv.org/abs/2508.18190)
 - (ACL'24) **TaPERA: Enhancing Faithfulness and Interpretability in Long-Form Table QA by Content Planning and Execution-based Reasoning** [[Paper]](https://aclanthology.org/2024.acl-long.692/)
+- (PACMMOD'25) **ST-Raptor: LLM-Powered Semi-Structured Table Question Answering** [[Paper]](https://arxiv.org/abs/2508.18190)
 - (arXiv'26) **FAMA: Failure-Aware Meta-Agentic Framework for Open-Source LLMs in Interactive Tool Use Environments** [[Paper]](https://arxiv.org/abs/2604.25135)
-- (ADBIS'24) **LLMClean: Context-Aware Tabular Data Cleaning via LLM-Generated OFDs** [[Paper]](https://arxiv.org/abs/2404.18681)
 - (EMNLP'24) **DataNarrative: Automated Data-Driven Storytelling with Visualizations and Texts** [[Paper]](https://aclanthology.org/2024.emnlp-main.1073/)
-- (arXiv'26) **Towards Reliable Agentic Progressive Text-to-Visualization with Verification Rules** [[Paper]](https://arxiv.org/abs/2605.29692)
-- (Findings of ACL'24) **MatPlotAgent: Method and Evaluation for LLM-Based Agentic Scientific Data Visualization** [[Paper]](https://aclanthology.org/2024.findings-acl.701/)
+- (arXiv'25) **Multi-Agent Data Visualization and Narrative Generation** [[Paper]](https://arxiv.org/abs/2509.00481)
 
 #### Unstructured Data
 
-- (arXiv'26) **Sanity Checks for Agentic Data Science** [[Paper]](https://arxiv.org/abs/2604.11003)
 - (NeurIPS'24) **UQE: A Query Engine for Unstructured Databases** [[Paper]](https://arxiv.org/abs/2407.09522)
+- (arXiv'26) **LongDS-Bench: On the Failure of Long-Horizon Agentic Data Analysis** [[Paper]](https://arxiv.org/abs/2605.30434)
+- (arXiv'26) **DSAEval: Evaluating Data Science Agents on a Wide Range of Real-World Data Science Problems** [[Paper]](https://arxiv.org/abs/2601.13591)
+- (arXiv'26) **Navigating Large-Scale Document Collections: MuDABench for Multi-Document Analytical QA** [[Paper]](https://arxiv.org/abs/2604.22239)
+- (ACL'26) **UniDataBench: Evaluating Data Analytics Agents Across Structured and Unstructured Data** [[Paper]](https://aclanthology.org/2026.acl-long.1556.pdf)
+- (arXiv'26) **Sanity Checks for Agentic Data Science** [[Paper]](https://arxiv.org/abs/2604.11003)
 - (arXiv'26) **Failure is Feedback: History-Aware Backtracking for Agentic Traversal in Multimodal Graphs** [[Paper]](https://arxiv.org/abs/2602.03432)
 
 ### Repair
 
 <div align="center">
      <img width="100%" src="figures/fig6_repair.png" alt="Verification-driven repair through data state reconstruction, reusable memory skills, and search-guided interventions">
-     <p><em>Repair uses verification signals to reconstruct the data state, retain reusable memory skills, and guide intervention search. The figure shows checkpoint rollback, storage and retrieval of validated repairs, and the refinement of candidate interventions through re-execution and outcome feedback.</em></p>
+     <p><em>Technical routes for repair: Data State Reconstruction, Search-Guided Intervention-Based Repair, and Reusable Memory Skills.</em></p>
 </div>
 
 #### Structured Data
 
-- (arXiv'26) **AION: Next-Generation Tasks and Practical Harness for Time Series** [[Paper]](https://arxiv.org/abs/2605.25045)
 - (VLDB'25) **SagaLLM: Context Management, Validation, and Transaction Guarantees for Multi-Agent LLM Planning** [[Paper]](https://arxiv.org/abs/2503.11951)
+- (arXiv'26) **DART: Semantic Recoverability for Structured Tool Agents** [[Paper]](https://arxiv.org/abs/2605.23311)
+- (arXiv'26) **AgentFixer: From Failure Detection to Fix Recommendations in LLM Agentic Systems** [[Paper]](https://arxiv.org/abs/2603.29848)
 - (arXiv'26) **Learning to Retrieve: Dual-Level Long-Term Memory for Text-to-SQL Agents** [[Paper]](https://arxiv.org/abs/2606.00547)
 - (arXiv'26) **CausalFlow: Causal Attribution and Counterfactual Repair for LLM Agent Failures** [[Paper]](https://arxiv.org/abs/2605.25338)
-- (arXiv'26) **REFLECT: Intervention-Supported Error Attribution for Silent Failures in LLM Agent Traces** [[Paper]](https://arxiv.org/abs/2606.09071)
-- (arXiv'26) **AgentFixer: From Failure Detection to Fix Recommendations in LLM Agentic Systems** [[Paper]](https://arxiv.org/abs/2603.29848)
 
 #### Semi-Structured Data
 
-- (arXiv'26) **kRAIG: A Natural Language-Driven Agent for Automated DataOps Pipeline Generation** [[Paper]](https://arxiv.org/abs/2603.20311)
+- (arXiv'26) **Auditing and Controlling AI Agent Actions in Spreadsheets** [[Paper]](https://arxiv.org/abs/2604.20070)
+- (arXiv'26) **A Self-Healing Framework for Reliable LLM-Based Autonomous Agents** [[Paper]](https://arxiv.org/abs/2605.06737)
 - (arXiv'26) **Unsupervised Skill Discovery for Agentic Data Analysis** [[Paper]](https://arxiv.org/abs/2606.06416)
 - (arXiv'26) **Robust Tool Use via Fission-GRPO: Learning to Recover from Execution Errors** [[Paper]](https://arxiv.org/abs/2601.15625)
 - (Findings of ACL'26) **Failure Makes the Agent Stronger: Enhancing Accuracy through Structured Reflection for Reliable Tool Interactions** [[Paper]](https://arxiv.org/abs/2509.18847)
-- (arXiv'25) **Multi-Objective Agentic Rewrites for Unstructured Data Processing** [[Paper]](https://arxiv.org/abs/2512.02289)
-- (arXiv'26) **A Self-Healing Framework for Reliable LLM-Based Autonomous Agents** [[Paper]](https://arxiv.org/abs/2605.06737)
-- (arXiv'26) **Towards Reliable Agentic Progressive Text-to-Visualization with Verification Rules** [[Paper]](https://arxiv.org/abs/2605.29692)
+- (arXiv'25) **CoDA: Agentic Systems for Collaborative Data Visualization** [[Paper]](https://arxiv.org/abs/2510.03194)
 - (Findings of ACL'24) **MatPlotAgent: Method and Evaluation for LLM-Based Agentic Scientific Data Visualization** [[Paper]](https://aclanthology.org/2024.findings-acl.701/)
 
 #### Unstructured Data
 
-- (arXiv'26) **DART: Semantic Recoverability for Structured Tool Agents** [[Paper]](https://arxiv.org/abs/2605.23311)
-- (arXiv'25) **DeepAnalyze: Agentic Large Language Models for Autonomous Data Science** [[Paper]](https://arxiv.org/abs/2510.16872)
-- (arXiv'26) **VectraFlow: Long-Horizon Semantic Processing over Data and Event Streams with LLMs** [[Paper]](https://arxiv.org/abs/2604.03855)
 - (arXiv'26) **Doctor-RAG: A Failure-Aware Repair Framework for Agentic Retrieval-Augmented Generation** [[Paper]](https://arxiv.org/abs/2604.00865)
-- (SIGIR'25) **Insight Agents: An LLM-Based Multi-Agent System for Data Insights** [[Paper]](https://arxiv.org/abs/2601.20048)
-- (arXiv'26) **ReTool-Video: Recursive Tool-Using Video Agents with Meta-Augmented Tool Grounding** [[Paper]](https://arxiv.org/abs/2605.13228)
+- (arXiv'25) **Multi-Objective Agentic Rewrites for Unstructured Data Processing** [[Paper]](https://arxiv.org/abs/2512.02289)
+- (arXiv'26) **FinAcumen: Financial Multimodal Reasoning via Self-Evolving Experience Memory Harness** [[Paper]](https://arxiv.org/abs/2606.17642)
+- (SIGIR'26) **Deep Search with Hierarchical Meta-Cognitive Monitoring Inspired by Cognitive Neuroscience** [[Paper]](https://arxiv.org/abs/2601.23188)
 
 ## 🔎 Open Reliability Problems
 
 <div align="center">
      <img width="100%" src="figures/fig7_gaps.png" alt="Reliability problems in semantic calibration, clarification, experience transfer, and a shared verification–repair repository">
-     <p><em>The figure illustrates four reliability problems: uncertainty is lost between stages, ambiguous requests proceed without sufficient clarification, stored repairs fail to transfer to new data environments, and a shared verification–repair repository is missing.</em></p>
+     <p><em>Four open reliability problems: (1) the Inactive Semantic Calibration Problem, (2) the Missing Clarification Problem, (3) the Missing Experience Transfer Problem, and (4) the Missing Verification-Repair Repository Problem.</em></p>
 </div>
 
 ## 🏆 Benchmark
