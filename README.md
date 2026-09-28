@@ -93,7 +93,6 @@ A Data Agent is an LLM-driven system that executes end-to-end data science tasks
 - (arXiv'26) **MAVEN: A Multi-stage Agentic Annotation Pipeline for Video Reasoning Tasks** [[Paper]](https://arxiv.org/abs/2605.21917)
 - (arXiv'25) **HARMON-E: Hierarchical Agentic Reasoning for Multimodal Oncology Notes to Extract Structured Data** [[Paper]](https://arxiv.org/abs/2512.19864)
 - (arXiv'26) **Navigating the Mirage: A Dual-Path Agentic Framework for Robust Misleading Chart Question Answering** [[Paper]](https://arxiv.org/abs/2603.28583)
-- (arXiv'26, withdrawn) **Agentic Retrieval-Augmented Generation for Financial Document Question Answering** [[Paper]](https://arxiv.org/abs/2605.05409)
 - (arXiv'25) **Code-in-the-Loop Forensics: Agentic Tool Use for Image Forgery Detection** [[Paper]](https://arxiv.org/abs/2512.16300)
 - (arXiv'26) **LongDS-Bench: On the Failure of Long-Horizon Agentic Data Analysis** [[Paper]](https://arxiv.org/abs/2605.30434)
 - (arXiv'25) **Doc-Researcher: A Unified System for Multimodal Document Parsing and Deep Research** [[Paper]](https://arxiv.org/abs/2510.21603)
@@ -135,7 +134,6 @@ A Data Agent is an LLM-driven system that executes end-to-end data science tasks
 - (VLDB'25) **DocETL: Agentic Query Rewriting and Evaluation for Complex Document Processing** [[Paper]](https://arxiv.org/abs/2410.12189)
 - (NeurIPS'24) **UQE: A Query Engine for Unstructured Databases** [[Paper]](https://arxiv.org/abs/2407.09522)
 - (CAIS'26) **Do Agents Need to Plan Step-by-Step? Rethinking Planning Horizon in Data-Centric Tool Calling** [[Paper]](https://arxiv.org/abs/2605.08477)
-- (arXiv'26, withdrawn) **Agentic Retrieval-Augmented Generation for Financial Document Question Answering** [[Paper]](https://arxiv.org/abs/2605.05409)
 - (arXiv'26) **DeepXiv-SDK: An Agentic Data Interface for Scientific Literature** [[Paper]](https://arxiv.org/abs/2603.00084)
 - (arXiv'25) **Doc-Researcher: A Unified System for Multimodal Document Parsing and Deep Research** [[Paper]](https://arxiv.org/abs/2510.21603)
 - (PACMMOD'26) **AgenticScholar: Agentic Data Management with Pipeline Orchestration for Scholarly Corpora** [[Paper]](https://arxiv.org/abs/2603.13774)
@@ -188,7 +186,7 @@ A Data Agent is an LLM-driven system that executes end-to-end data science tasks
 - (PACMMOD'26) **Reward-SQL: Boosting Text-to-SQL via Stepwise Execution-Aware Reasoning and Process-Supervised Rewards** [[Paper]](https://arxiv.org/abs/2505.04671)
 - (ICLR'25) **CHASE-SQL: Multi-Path Reasoning and Preference Optimized Candidate Selection in Text-to-SQL** [[Paper]](https://arxiv.org/abs/2410.01943)
 - (PACMMOD'25) **OpenSearch-SQL: Enhancing Text-to-SQL with Dynamic Few-shot and Consistency Alignment** [[Paper]](https://arxiv.org/abs/2502.14913)
-- (VLDB'25) **E2ETune: End-to-End Knob Tuning via Fine-Tuned Generative Language Model** [[Paper]](https://www.vldb.org/pvldb/vol18/p5540-huang.pdf)
+- (VLDB'25) **E2ETune: End-to-End Knob Tuning via Fine-tuned Generative Language Model** [[Paper]](https://www.vldb.org/pvldb/vol18/p5540-huang.pdf)
 - (arXiv'26) **Towards Reliable Agentic Progressive Text-to-Visualization with Verification Rules** [[Paper]](https://arxiv.org/abs/2605.29692)
 - (PACMMOD'25) **λ-Tune: Harnessing Large Language Models for Automated Database System Tuning** [[Paper]](https://arxiv.org/abs/2411.03500)
 - (arXiv'26) **CausalFlow: Causal Attribution and Counterfactual Repair for LLM Agent Failures** [[Paper]](https://arxiv.org/abs/2605.25338)
@@ -257,36 +255,31 @@ A Data Agent is an LLM-driven system that executes end-to-end data science tasks
 
 ## 🏆 Benchmark
 
-| Dataset | Analytical Task | Focus | Evaluation | Paper | Repo |
+| Benchmark | Focus | Task & Process Coverage | Evaluation | Paper | Repo |
 | --- | --- | --- | --- | --- | --- |
-| StockGQL | Data Querying and Information Seeking | Natural-language-to-GQL translation over structured financial knowledge, requiring interpretation of user questions and executable graph query generation. | Evaluates query correctness and whether generated queries retrieve the information required by the question. | [Paper](https://aclanthology.org/2024.findings-emnlp.800/) | — |
-| TableBench | Data Querying and Information Seeking | Complex table question answering covering fact checking, numerical reasoning, data analysis, and visualization. | Evaluates TableQA performance across multiple reasoning categories using curated test cases. | [Paper](https://arxiv.org/abs/2408.09174) | [Code](https://github.com/TableBench/TableBench) |
-| Visual-TableQA | Visualization and Multi-modal Analysis | Visual reasoning over rendered table images, including table structure understanding and multi-step reasoning. | Measures question-answering and reasoning accuracy on visually presented tables. | [Paper](https://arxiv.org/abs/2509.07966) | — |
-| TopBench | Analysis and Prediction | Implicit predictive reasoning over tabular data, including prediction, decision making, and treatment-effect analysis. | Evaluates whether models can infer analytical objectives beyond direct table lookup. | [Paper](https://arxiv.org/abs/2604.28076) | [Data](https://huggingface.co/datasets/LAMDA-Tabular/TopBench) |
-| PrepBench | Data Preparation and Transformation | Natural-language-driven data preparation involving cleaning, restructuring, and table transformation. | Evaluates the correctness of generated output tables across different preparation settings. | [Paper](https://arxiv.org/abs/2605.08687) | — |
-| LongDS-Bench | Analysis and Prediction | Long-horizon, multi-turn data science tasks with evolving analytical states and intermediate results. | Measures turn-level accuracy and the ability to complete extended analytical trajectories. | [Paper](https://arxiv.org/abs/2605.30434) | — |
-| DAComp | Cross-task | Data engineering and open-ended data analysis across the data-intelligence lifecycle. | Combines execution-based metrics for data engineering with rubric-based evaluation for open-ended analysis. | [Paper](https://arxiv.org/abs/2512.04324) | [Code](https://github.com/ByteDance-Seed/DAComp) |
-| FDABench | Cross-task | Data analysis over heterogeneous structured, unstructured, and multimodal sources. | Evaluates analytical correctness, report quality, latency, and token consumption. | [Paper](https://arxiv.org/abs/2509.02473) | [Code](https://github.com/fdabench/FDAbench) |
-| CODA-BENCH | Analysis and Prediction | Data-intensive code-agent tasks requiring data discovery, code generation, and execution. | Evaluates data discovery and successful completion of executable analytical tasks. | [Paper](https://arxiv.org/abs/2606.15300) | [Website](https://coda-bench.github.io/) |
-| DataSciBench | Analysis and Prediction | Data science tasks requiring agents to generate and execute analytical programs. | Uses programmatic evaluation of generated programs and their execution results. | [Paper](https://arxiv.org/abs/2502.13897) | [Website](https://datascibench.github.io/) |
-| AgentGym | Cross-task | Real-world agent tasks involving tool discovery, selection, and multi-step interaction with external resources. | Evaluates task success and tool-use behavior across interactive environments. | [Paper](https://arxiv.org/abs/2406.04151) | [Website](https://agentgym.github.io/) |
-| FinRpt | Analysis and Prediction | Equity research report generation integrating information from multiple financial data sources. | Evaluates generated reports using a multi-dimensional assessment of report quality. | [Paper](https://arxiv.org/abs/2511.07322) | — |
-| PolitNuggets | Data Querying and Information Seeking | Agentic discovery and synthesis of long-tail facts from dispersed information sources. | Evaluates evidence discovery, fine-grained factual accuracy, and information-seeking efficiency. | [Paper](https://arxiv.org/abs/2605.14002) | — |
+| StockGQL | Natural-language-to-GQL translation over structured financial knowledge. | Data Querying; Execution, Verification | Query correctness and retrieval of the required information. | [Paper](https://arxiv.org/abs/2412.10434) | [Code](https://github.com/leonyuancode/StockGQL) |
+| TableBench | Table question answering covering fact checking, numerical reasoning, data analysis, and visualization. | Data Querying; Verification | TableQA accuracy across multiple reasoning categories. | [Paper](https://arxiv.org/abs/2408.09174) | [Code](https://github.com/TableBench/TableBench) |
+| Visual-TableQA | Visual reasoning over rendered tables, including structure understanding and multi-step reasoning. | Visualization and Multimodal Analysis; Verification | Question-answering and reasoning accuracy on table images. | [Paper](https://arxiv.org/abs/2509.07966) | — |
+| TopBench | Implicit predictive reasoning over tabular data, including prediction, decision making, and treatment-effect analysis. | Analysis and Prediction; Verification | Performance on analytical objectives beyond direct table lookup. | [Paper](https://arxiv.org/abs/2604.28076) | [Data](https://huggingface.co/datasets/LAMDA-Tabular/TopBench) |
+| PrepBench | Natural-language-driven data preparation involving cleaning, restructuring, and table transformation. | Data Preparation; Execution, Verification | Correctness of generated output tables across preparation settings. | [Paper](https://arxiv.org/abs/2605.08687) | — |
+| InfiAgent-DABench | End-to-end data analysis over CSV files requiring agents to interact with an execution environment. | Analysis and Prediction; Planning, Execution | Automatically evaluated answers across diverse analytical questions. | [Paper](https://arxiv.org/abs/2401.05507) | [Code](https://github.com/InfiAgent/InfiAgent) |
+| LongDA | Documentation-intensive data analysis requiring retrieval from long documents before computation and code execution. | Information Seeking, Analysis; Planning, Execution | Answer accuracy, token efficiency, runtime, and tool interactions. | [Paper](https://arxiv.org/abs/2601.02598) | — |
+| IDA-Bench | Interactive, multi-round data analysis derived from Kaggle notebooks with sequential instructions. | Analysis and Prediction; Planning, Execution, Verification | Submission success, baseline achievement, turns, runtime, and generated code. | [Paper](https://arxiv.org/abs/2505.18223) | — |
+| TableAgentBench | Multi-turn table analysis over real-world industrial spreadsheets requiring iterative reasoning and tool use. | Data Querying; Planning, Execution, Verification | Task completion across multi-turn table-analysis scenarios. | [Paper](https://openreview.net/pdf?id=5yZAgkjGQ0) | [Code](https://github.com/201983290498/TableAgentBench) |
+| DataGovBench | Data analysis over government open data, covering table QA and exploratory insight generation. | Querying, Visualization; Execution, Verification | Analytical answers and quality of generated insights. | [Paper](https://arxiv.org/abs/2607.06482) | — |
+| LongDS-Bench | Long-horizon, multi-turn data science tasks with evolving analytical states and intermediate results. | Analysis and Prediction; Planning, Execution, Verification | Turn-level accuracy and completion of extended analytical trajectories. | [Paper](https://arxiv.org/abs/2605.30434) | — |
+| DAComp | Data engineering and open-ended data analysis spanning the data-intelligence lifecycle. | Cross-task; Planning, Execution, Verification | Execution-based metrics for engineering and rubric-based analysis evaluation. | [Paper](https://arxiv.org/abs/2512.04324) | [Code](https://github.com/ByteDance-Seed/DAComp) |
+| FDABench | Data analysis over heterogeneous structured, unstructured, and multimodal sources. | Cross-task; Planning, Execution, Verification | Answer correctness, report quality, reasoning traces, latency, and token usage. | [Paper](https://arxiv.org/abs/2509.02473) | [Code](https://github.com/fdabench/FDAbench) |
+| CODA-BENCH | Data-intensive code-agent tasks requiring data discovery, code generation, and execution. | Analysis and Prediction; Planning, Execution, Verification | Data discovery and successful completion of executable analytical tasks. | [Paper](https://arxiv.org/abs/2606.15300) | [Website](https://coda-bench.github.io/) |
+| DataSciBench | Data science tasks requiring agents to generate and execute analytical programs. | Analysis and Prediction; Execution, Verification | Programmatic evaluation of generated programs and execution results. | [Paper](https://arxiv.org/abs/2502.13897) | [Website](https://datascibench.github.io/) |
+| AgentGym | Real-world agent tasks involving tool discovery, selection, and multi-step interaction. | Cross-task; Planning, Execution, Verification | Task success and tool-use behavior across interactive environments. | [Paper](https://arxiv.org/abs/2406.04151) | [Website](https://agentgym.github.io/) |
+| FinRpt | Equity research report generation integrating multiple financial data types. | Analysis and Prediction; Planning, Execution, Verification | Multi-dimensional evaluation of generated research reports. | [Paper](https://arxiv.org/abs/2511.07322) | — |
+| PolitNuggets | Agentic discovery and synthesis of long-tail facts from dispersed information sources. | Information Seeking; Planning, Execution, Verification | Evidence discovery, fine-grained factual accuracy, and efficiency. | [Paper](https://arxiv.org/abs/2605.14002) | — |
 
-### Additional Benchmark Papers
 
-- (arXiv'25) **Beyond Seeing: Evaluating Multimodal LLMs on Tool-Enabled Image Perception, Transformation, and Reasoning** [[Paper]](https://arxiv.org/abs/2510.12712)
-- (arXiv'26) **Navigating Large-Scale Document Collections: MuDABench for Multi-Document Analytical QA** [[Paper]](https://arxiv.org/abs/2604.22239)
-- (arXiv'26) **DSAEval: Evaluating Data Science Agents on a Wide Range of Real-World Data Science Problems** [[Paper]](https://arxiv.org/abs/2601.13591)
-- (ACL'26) **UniDataBench: Evaluating Data Analytics Agents Across Structured and Unstructured Data** [[Paper]](https://aclanthology.org/2026.acl-long.1556.pdf)
-- (arXiv'26) **AllocBench: Measuring Online Tool Allocation Capability in LLM Agents** [[Paper]](https://arxiv.org/abs/2607.23332)
-- (arXiv'26) **6GAgentGym: Tool Use, Data Synthesis, and Agentic Learning for Network Management** [[Paper]](https://arxiv.org/abs/2603.29656)
-- (ICLR'26) **ReWatch-R1: Boosting Complex Video Reasoning in Large Vision-Language Models through Agentic Data Synthesis** [[Paper]](https://arxiv.org/abs/2509.23652)
+## 📦 Open-source Projects
 
-## 📦 Projects
-
-### Open-source Projects
-
+- [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/qzc438/ontology-llm) Agent-OM: Leveraging LLM Agents for Ontology Matching
 - [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ucbepic/docetl) DocETL: Agentic Query Rewriting and Evaluation for Complex Document Processing
 - [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/microsoft/Jupiter) Jupiter: Enhancing LLM Data Analysis Capabilities via Notebook and Inference-Time Value-Guided Search
 - [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/TencentBigData-SiriusAI/SiriusBI) SiriusBI: A Comprehensive LLM-Powered Solution for Data Analytics in Business Intelligence
@@ -295,7 +288,8 @@ A Data Agent is an LLM-driven system that executes end-to-end data science tasks
 - [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/yale-nlp/MCTS-RAG) MCTS-RAG: Enhancing Retrieval-Augmented Generation with Monte Carlo Tree Search
 - [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/thunlp/MatPlotAgent) MatPlotAgent: Method and Evaluation for LLM-Based Agentic Scientific Data Visualization
 - [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/OpenDataBox/ST-Raptor) ST-Raptor: LLM-Powered Semi-Structured Table Question Answering
-- [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/TsinghuaDatabaseGroup/DB-GPT) D-Bot: Database Diagnosis System using Large Language Models
+
+## 🚀 Applications
 
 ### Interactive Data Assistance
 
@@ -304,20 +298,20 @@ A Data Agent is an LLM-driven system that executes end-to-end data science tasks
 
 ### Collaborative Analytical Work
 
-- [GPT for Work](https://gptforwork.com/about): Formula generation and repair, data cleaning, charts, pivot tables, and bulk row processing in Excel and Google Sheets.
+- [GPT for Work](https://gptforwork.com/): Formula generation and repair, data cleaning, charts, pivot tables, and bulk row processing in Microsoft Excel and Google Sheets.
 - [Codex](https://openai.com/codex/): Data, code, and analytical artifacts within a shared workflow.
 
 ### Autonomous Data Workflows
 
-- [Snowflake CoCo](https://www.snowflake.com/en/developers/guides/getting-started-with-coco-desktop/): Multi-step data engineering, analytics, machine learning, and agent-building tasks.
-- [Snowflake Cortex Agents](https://docs.snowflake.com/en/user-guide/snowflake-cortex/cortex-agents): Structured data access, unstructured retrieval, and code execution within a governed workflow.
-- [Databricks Genie Code](https://docs.databricks.com/aws/en/genie-code): Planning, data retrieval, code generation and execution, output inspection, and error recovery.
-- [Manus](https://manus.im/): Spreadsheet and CSV analysis, charts, reports, and reusable workflows.
+- [Snowflake CoCo](https://www.snowflake.com/en/product/features/cortex/): Multi-step data engineering, analytics, machine learning, and agent-building tasks.
+- [Snowflake Cortex Agents](https://docs.snowflake.com/en/user-guide/snowflake-cortex/cortex-agents): Structured data access, unstructured retrieval, and code execution, with repeated tool selection and evaluation of intermediate results.
+- [Databricks Genie Code](https://www.databricks.com/product/genie/code): Planning, data retrieval, code generation and execution, output inspection, and error recovery.
+- [Manus](https://manus.im/solutions/product): Spreadsheet and CSV analysis, chart and report generation, and reusable workflows.
 
 ### Knowledge-Intensive Discovery
 
-- [Manus](https://manus.im/): External research, evidence synthesis, structured analysis, and report generation.
-- [Pelayar Spreadsheet Agent](https://pelayar.ai/ai-excel/): Extracting information from PDFs, invoices, images, and other documents into spreadsheets for analysis.
+- [Manus](https://manus.im/solutions/product): External research, evidence synthesis, structured analysis, and report generation.
+- [Pelayar Spreadsheet Agent](https://pelayar.ai/): Extracting information from PDFs, invoices, images, and other documents into spreadsheets for analysis.
 
 ## 📃 Citation
 
