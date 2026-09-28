@@ -19,7 +19,6 @@ Research papers, benchmarks, and projects on **Data Agents**, collected from our
 > **[Awesome Data Agents](#awesome-data-agents)**
 >
 > - **[📖 Overview](#-overview)**
-> - **[📚 Related Survey](#-related-survey-papers)**
 > - **[🪴 Taxonomy](#-taxonomy)**
 >   - [Perception](#perception)
 >   - [Planning](#planning)
@@ -27,8 +26,14 @@ Research papers, benchmarks, and projects on **Data Agents**, collected from our
 >   - [Verification](#verification)
 >   - [Repair](#repair)
 > - **[🔎 Open Reliability Problems](#-open-reliability-problems)**
-> - **[🏆 Benchmark](#-benchmark)**
-> - **[📦 Projects](#-projects)**
+> - **[🏆 Benchmarks](#-benchmarks)**
+> - **[📦 Open-source Projects](#-open-source-projects)**
+> - **[🚀 Applications](#-applications)**
+>   - [Interactive Data Assistance](#interactive-data-assistance)
+>   - [Collaborative Analytical Work](#collaborative-analytical-work)
+>   - [Autonomous Data Workflows](#autonomous-data-workflows)
+>   - [Knowledge-Intensive Discovery](#knowledge-intensive-discovery)
+> - **[📚 Related Survey Papers](#-related-survey-papers)**
 > - **[📃 Citation](#-citation)**
 
 ---
@@ -37,16 +42,6 @@ Research papers, benchmarks, and projects on **Data Agents**, collected from our
 
 A Data Agent is an LLM-driven system that executes end-to-end data science tasks through interaction with a data environment and computational tools. It observes execution results and iteratively refines its actions to produce analytical artifacts, including cleaned datasets, visualizations, and reports. The survey organizes these systems by five workflow stages and three data types: structured, semi-structured, and unstructured data.
 
-## 📚 Related Survey Papers
-
-- (arXiv'25) **Autonomous Data Agents: A New Opportunity for Smart Data** [[Paper]](https://arxiv.org/abs/2509.18710)
-- (arXiv'25) **A Survey of LLM × DATA** [[Paper]](https://arxiv.org/abs/2505.18458)
-- (arXiv'25) **A Survey of Data Agents: Emerging Paradigm or Overstated Hype?** [[Paper]](https://arxiv.org/abs/2510.23587)
-- (arXiv'25) **A Survey of Reasoning and Agentic Systems in Time Series with Large Language Models** [[Paper]](https://arxiv.org/abs/2509.11575)
-- (arXiv'25) **LLM-Based Data Science Agents: A Survey of Capabilities, Challenges, and Future Directions** [[Paper]](https://arxiv.org/abs/2510.04023)
-- (arXiv'25) **LLM/Agent-as-Data-Analyst: A Survey** [[Paper]](https://arxiv.org/abs/2509.23988)
-- (arXiv'26) **Can LLMs Clean Up Your Mess? A Survey of Application-Ready Data Preparation with LLMs** [[Paper]](https://arxiv.org/abs/2601.17058)
-- (arXiv'26) **Data Agents: Levels, State of the Art, and Open Problems** [[Paper]](https://arxiv.org/abs/2602.04261)
 
 ## 🪴 Taxonomy
 
@@ -253,7 +248,7 @@ A Data Agent is an LLM-driven system that executes end-to-end data science tasks
      <p><em>Four open reliability problems: (1) the Inactive Semantic Calibration Problem, (2) the Missing Clarification Problem, (3) the Missing Experience Transfer Problem, and (4) the Missing Verification-Repair Repository Problem.</em></p>
 </div>
 
-## 🏆 Benchmark
+## 🏆 Benchmarks
 
 | Benchmark | Focus | Task & Process Coverage | Evaluation | Paper | Repo |
 | --- | --- | --- | --- | --- | --- |
@@ -265,9 +260,9 @@ A Data Agent is an LLM-driven system that executes end-to-end data science tasks
 | InfiAgent-DABench | End-to-end data analysis over CSV files requiring agents to interact with an execution environment. | Analysis and Prediction; Planning, Execution | Automatically evaluated answers across diverse analytical questions. | [Paper](https://arxiv.org/abs/2401.05507) | [Code](https://github.com/InfiAgent/InfiAgent) |
 | LongDA | Documentation-intensive data analysis requiring retrieval from long documents before computation and code execution. | Information Seeking, Analysis; Planning, Execution | Answer accuracy, token efficiency, runtime, and tool interactions. | [Paper](https://arxiv.org/abs/2601.02598) | — |
 | IDA-Bench | Interactive, multi-round data analysis derived from Kaggle notebooks with sequential instructions. | Analysis and Prediction; Planning, Execution, Verification | Submission success, baseline achievement, turns, runtime, and generated code. | [Paper](https://arxiv.org/abs/2505.18223) | — |
-| TableAgentBench | Multi-turn table analysis over real-world industrial spreadsheets requiring iterative reasoning and tool use. | Data Querying; Planning, Execution, Verification | Task completion across multi-turn table-analysis scenarios. | [Paper](https://openreview.net/pdf?id=5yZAgkjGQ0) | [Code](https://github.com/201983290498/TableAgentBench) |
+| TableAgentBench | Multi-turn table analysis over real-world industrial spreadsheets requiring iterative reasoning and tool use. | Data Querying; Planning, Execution, Verification | Task completion across multi-turn table-analysis scenarios. | [Paper](https://openreview.net/pdf?id=5yZAgkjGQ0) | [Website](https://201983290498.github.io/TableAgentBench/) |
 | DataGovBench | Data analysis over government open data, covering table QA and exploratory insight generation. | Querying, Visualization; Execution, Verification | Analytical answers and quality of generated insights. | [Paper](https://arxiv.org/abs/2607.06482) | — |
-| LongDS-Bench | Long-horizon, multi-turn data science tasks with evolving analytical states and intermediate results. | Analysis and Prediction; Planning, Execution, Verification | Turn-level accuracy and completion of extended analytical trajectories. | [Paper](https://arxiv.org/abs/2605.30434) | — |
+| LongDS-Bench | Long-horizon, multi-turn data science tasks with evolving analytical states and intermediate results. | Analysis and Prediction; Planning, Execution, Verification | Turn-level accuracy and completion of extended analytical trajectories. | [Paper](https://arxiv.org/abs/2605.30434) | [Data](https://huggingface.co/datasets/zjunlp/LongDS) |
 | DAComp | Data engineering and open-ended data analysis spanning the data-intelligence lifecycle. | Cross-task; Planning, Execution, Verification | Execution-based metrics for engineering and rubric-based analysis evaluation. | [Paper](https://arxiv.org/abs/2512.04324) | [Code](https://github.com/ByteDance-Seed/DAComp) |
 | FDABench | Data analysis over heterogeneous structured, unstructured, and multimodal sources. | Cross-task; Planning, Execution, Verification | Answer correctness, report quality, reasoning traces, latency, and token usage. | [Paper](https://arxiv.org/abs/2509.02473) | [Code](https://github.com/fdabench/FDAbench) |
 | CODA-BENCH | Data-intensive code-agent tasks requiring data discovery, code generation, and execution. | Analysis and Prediction; Planning, Execution, Verification | Data discovery and successful completion of executable analytical tasks. | [Paper](https://arxiv.org/abs/2606.15300) | [Website](https://coda-bench.github.io/) |
@@ -313,6 +308,17 @@ A Data Agent is an LLM-driven system that executes end-to-end data science tasks
 - [Manus](https://manus.im/solutions/product): External research, evidence synthesis, structured analysis, and report generation.
 - [Pelayar Spreadsheet Agent](https://pelayar.ai/): Extracting information from PDFs, invoices, images, and other documents into spreadsheets for analysis.
 
+
+## 📚 Related Survey Papers
+
+- (arXiv'25) **Autonomous Data Agents: A New Opportunity for Smart Data** [[Paper]](https://arxiv.org/abs/2509.18710)
+- (arXiv'25) **A Survey of LLM × DATA** [[Paper]](https://arxiv.org/abs/2505.18458)
+- (arXiv'25) **A Survey of Data Agents: Emerging Paradigm or Overstated Hype?** [[Paper]](https://arxiv.org/abs/2510.23587)
+- (arXiv'25) **A Survey of Reasoning and Agentic Systems in Time Series with Large Language Models** [[Paper]](https://arxiv.org/abs/2509.11575)
+- (arXiv'25) **LLM-Based Data Science Agents: A Survey of Capabilities, Challenges, and Future Directions** [[Paper]](https://arxiv.org/abs/2510.04023)
+- (arXiv'25) **LLM/Agent-as-Data-Analyst: A Survey** [[Paper]](https://arxiv.org/abs/2509.23988)
+- (arXiv'26) **Can LLMs Clean Up Your Mess? A Survey of Application-Ready Data Preparation with LLMs** [[Paper]](https://arxiv.org/abs/2601.17058)
+- (arXiv'26) **Data Agents: Levels, State of the Art, and Open Problems** [[Paper]](https://arxiv.org/abs/2602.04261)
+
+
 ## 📃 Citation
-
-
