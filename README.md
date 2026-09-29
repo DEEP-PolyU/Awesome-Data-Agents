@@ -1,5 +1,11 @@
 # Awesome Data Agents
 
+<div align="center">
+     <a href="https://arxiv.org/abs/2609.35255" target="_blank"><img src="https://img.shields.io/badge/Paper-Arxiv-red?logo=arxiv&style=flat-square" alt="arXiv:2609.35255"></a>
+     <a href="http://makeapullrequest.com"><img src="https://img.shields.io/github/stars/DEEP-PolyU/Awesome-Data-Agents"/></a>
+     <a href="http://makeapullrequest.com"><img src="https://img.shields.io/github/forks/DEEP-PolyU/Awesome-Data-Agents"/></a>
+   
+</div>
 
 Research papers, benchmarks, and projects on **Data Agents**, collected from our survey 📖<em>"**Towards Reliable AI Data Scientists: Data Agents with Workflow Harnesses**"</em>.
 
@@ -254,7 +260,7 @@ A Data Agent is an LLM-driven system that executes end-to-end data science tasks
 | --- | --- | --- | --- | --- | --- |
 | StockGQL | Natural-language-to-GQL translation over structured financial knowledge. | Data Querying; Execution, Verification | Query correctness and retrieval of the required information. | [Paper](https://arxiv.org/abs/2412.10434) | [Code](https://github.com/leonyuancode/StockGQL) |
 | TableBench | Table question answering covering fact checking, numerical reasoning, data analysis, and visualization. | Data Querying; Verification | TableQA accuracy across multiple reasoning categories. | [Paper](https://arxiv.org/abs/2408.09174) | [Code](https://github.com/TableBench/TableBench) |
-| Visual-TableQA | Visual reasoning over rendered tables, including structure understanding and multi-step reasoning. | Visualization and Multimodal Analysis; Verification | Question-answering and reasoning accuracy on table images. | [Paper](https://arxiv.org/abs/2509.07966) | [Code](https://huggingface.co/datasets/AI-4-Everyone/Visual-TableQA) |
+| Visual-TableQA | Visual reasoning over rendered tables, including structure understanding and multi-step reasoning. | Visualization and Multimodal Analysis; Verification | Question-answering and reasoning accuracy on table images. | [Paper](https://arxiv.org/abs/2509.07966) | [Data](https://huggingface.co/datasets/AI-4-Everyone/Visual-TableQA) |
 | TopBench | Implicit predictive reasoning over tabular data, including prediction, decision making, and treatment-effect analysis. | Analysis and Prediction; Verification | Performance on analytical objectives beyond direct table lookup. | [Paper](https://arxiv.org/abs/2604.28076) | [Data](https://huggingface.co/datasets/LAMDA-Tabular/TopBench) |
 | PrepBench | Natural-language-driven data preparation involving cleaning, restructuring, and table transformation. | Data Preparation; Execution, Verification | Correctness of generated output tables across preparation settings. | [Paper](https://arxiv.org/abs/2605.08687) | — |
 | InfiAgent-DABench | End-to-end data analysis over CSV files requiring agents to interact with an execution environment. | Analysis and Prediction; Planning, Execution | Automatically evaluated answers across diverse analytical questions. | [Paper](https://arxiv.org/abs/2401.05507) | [Code](https://github.com/InfiAgent/InfiAgent) |
@@ -322,3 +328,15 @@ A Data Agent is an LLM-driven system that executes end-to-end data science tasks
 
 
 ## 📃 Citation
+
+```
+@misc{zhou2026reliableaidatascientists,
+      title={Towards Reliable AI Data Scientists: Data Agents with Workflow Harnesses}, 
+      author={Huachi Zhou and Yujing Zhang and Jiahe Du and Jiacheng Cai and Zijin Hong and Chuang Zhou and Zheng Yuan and Qinggang Zhang and Qing Li and Xiao Huang},
+      year={2026},
+      eprint={2609.35255},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI},
+      url={https://arxiv.org/abs/2609.35255}, 
+}
+```
