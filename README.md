@@ -7,7 +7,7 @@
    
 </div>
 
-Research papers, benchmarks, and projects on **Data Agents**, collected from our survey 📖<em>"**Towards Reliable AI Data Scientists: Data Agents with Workflow Harnesses**"</em>.
+Research papers, benchmarks, and projects on **Data Agents**, collected from our survey 📖<em>"[**Towards Reliable AI Data Scientists: Data Agents with Workflow Harnesses**](https://arxiv.org/abs/2609.35255)"</em>.
 
 🤗 Contributions are welcome! Submit an issue or pull request to suggest papers, add resource links, or correct an entry.
 
@@ -258,7 +258,7 @@ A Data Agent is an LLM-driven system that executes end-to-end data science tasks
 
 | Benchmark | Focus | Task & Process Coverage | Evaluation | Paper | Repo |
 | --- | --- | --- | --- | --- | --- |
-| StockGQL | Natural-language-to-GQL translation over structured financial knowledge. | Data Querying; Execution, Verification | Query correctness and retrieval of the required information. | [Paper](https://arxiv.org/abs/2412.10434) | [Code](https://github.com/leonyuancode/StockGQL) |
+| StockGQL | Natural-language-to-GQL translation over structured financial knowledge. | Data Querying; Execution, Verification | Query correctness and retrieval of the required information. | [Paper](https://arxiv.org/abs/2412.10434) | [Data](https://github.com/leonyuancode/StockGQL) |
 | TableBench | Table question answering covering fact checking, numerical reasoning, data analysis, and visualization. | Data Querying; Verification | TableQA accuracy across multiple reasoning categories. | [Paper](https://arxiv.org/abs/2408.09174) | [Code](https://github.com/TableBench/TableBench) |
 | Visual-TableQA | Visual reasoning over rendered tables, including structure understanding and multi-step reasoning. | Visualization and Multimodal Analysis; Verification | Question-answering and reasoning accuracy on table images. | [Paper](https://arxiv.org/abs/2509.07966) | [Data](https://huggingface.co/datasets/AI-4-Everyone/Visual-TableQA) |
 | TopBench | Implicit predictive reasoning over tabular data, including prediction, decision making, and treatment-effect analysis. | Analysis and Prediction; Verification | Performance on analytical objectives beyond direct table lookup. | [Paper](https://arxiv.org/abs/2604.28076) | [Data](https://huggingface.co/datasets/LAMDA-Tabular/TopBench) |
